@@ -3,13 +3,23 @@ This project is an implementation of a classifier nerual network that classifies
 
 The code uses numpy for easy vector multipication and implements back propagation and gradient decsent for the learning process.
 
+## How to Run
+
+Make sure you have the file *cell_data.dat* as it contains the initial configuration for the grid.
+
+Install the following packages:
+- sklearn
+- scikit-learn
+
+`` python neural_network.py ``
+
+## Network Structure
+I chose to implement a multi-layer percpetron with 4 inputs, 2 hidden layes with 7 neurons each and 3 output neurons.
+
 There are 3 availabe activation functions for different results:
 1. TanH
 2. Sigmoid
 3. Binary
-
-## Network Structure
-I chose to implement a multi-layer percpetron with 4 inputs, 2 hidden layes with 7 neurons each and 3 output neurons.
 
 ## Network Configuration
 In order to test what configuration will be best for the chosen architecture, I used the following code:

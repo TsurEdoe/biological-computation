@@ -5,6 +5,9 @@ This project is a climeate model of the world with the purpose of seeing the eff
 
 Make sure you have the file *cell_data.dat* as it contains the initial configuration for the grid.
 
+Install the following packages:
+- tkinter
+
 `` python cellular_automata.py ``
 
 ## Example Grid Initial Configuration

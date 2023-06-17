@@ -2,8 +2,9 @@ import numpy as np
 from sklearn.datasets import load_iris
 import time
 import sys
+import warnings
 
-np.warnings.filterwarnings('ignore', category=np.VisibleDeprecationWarning)
+warnings.filterwarnings('ignore', category=np.VisibleDeprecationWarning)
 
 def binary(x):
     return [1 if y>0 else 0 for y in x]
